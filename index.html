@@ -7,6 +7,91 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <!-- Side Navigation -->
+  <nav>
+    <h2>Contents</h2>
+    <ul>
+      <li><a href="#conceptualisation">1. Project Conceptualisation</a></li>
+      <li><a href="#implementation">2. Technical Implementation</a></li>
+      <li><a href="#community">3. Community of Practice</a></li>
+      <li><a href="#communication">4. Written & Communication</a></li>
+      <li><a href="#live-prototype">Live Prototype</a></li>
+    </ul>
+  </nav>
+
+  <!-- Conceptulisation -->
+  <div id="conceptualisation" class="Conceptualisation">
+    <h1>Project conceptualisation</h1>
+    <p>
+    My project, Tomato Tots, is an interactive webpage made for children to learn letters and words in a fun way. Each letter acts as a button — when clicked, a card flips to reveal a picture, the word, and an audio recording of how the word is pronounced. Clicking again shows a different word that starts with the same letter. 
+    </p>
+    <p>
+    The name Tomato Tots was chosen because it is playful, rhymes, and is easy for children to remember. It also connects to a simple, everyday theme that kids can relate to, making the learning environment feel friendly and familiar.
+    </p>
+    <p>
+    The idea is to combine visual learning (images, letters) with auditory learning (sound), making it easier for kids to connect letters with words.    
+    </p>
+  </div>
+    <div class="img-box">
+    <img src="pic/Untitled_Artwork (8).png" alt="Visual sketch of concept">
+    <p><em>Visual plan/sketch of the concept</em></p>
+    <img src="pic/LAST.png" alt="background">
+    <p><em>Background design</em></p>
+    <img src="pic/cards.png" alt="cards">
+    <p><em>Some cards design</em></p>
+  </div>
+
+<!-- Technical Implementation -->
+  <div id="implementation" class="implementation">
+    <h1>Technical Implementation</h1>
+    <p>
+    The prototype is developed with HTML, CSS, and JavaScript.
+    </p>
+    <p>
+    Buttons: Since I already draw the background and some buttons, I just create some Invisible clickable areas over the buttons (letters - A, B, C).
+    </p>
+    <p>
+    Card Flip: Implemented with CSS 3D transforms to simulate physical cards  
+    </p>
+    <p>
+    Randomisation: Each click calls Math.random() to select a different card for the chosen letter, ensuring variety and engagement.
+    </p>
+    <p>
+    Audio: Each card links to a .wav file for pronunciation, reinforcing learning through sound.
+    </p>
+    <p>
+    System map:
+    Letter button → Randomiser (Math.random) 
+    → Card flips 
+    → Front image + matching audio plays
+
+    </p>
+  </div>
+
+<!-- Community of Practice -->
+  <div id="community" class="community">
+    <h1>Community of Practice</h1>
+    <p>
+    For peer testing (Week 8), I provided these prompts:
+    </p>
+    <p>
+How easy was it to understand what you were supposed to do on the website?
+Do you have any suggestions for improving the website?
+Did you notice anything distracting or confusing in the layout or background?
+    </p>
+    <p>
+Feedback recieved:
+I received several pieces of feedback addressing different issues, but the common theme was that users really appreciated the aesthetic—the illustrations and overall theme were praised and well-loved. However, a major problem identified was layout inconsistency: buttons and cards did not stay in their intended positions across different screen sizes, and for some users, this made it difficult or impossible to interact with the website.
+    </p>
+Reflection:
+In the next iteration, I will focus on improving the layout to ensure all interactive elements and the background remain consistent when resizing the screen. This may involve adjusting the layout structure or implementing techniques to maintain element positions across different resolutions. The positive reception of the aesthetics will be preserved while improving functionality and responsiveness.
+  </div>
+
+<!-- Live Prototype -->
+  <div id="conceptualisation" class="Conceptualisation">
+    <h1>Project conceptualisation</h1>
+      <a class="live-link" href="https://tomatotots.netlify.app/">Prototype Link</a>
+  </div>
+
 </body>
 </html>
