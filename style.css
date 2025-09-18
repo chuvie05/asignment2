@@ -66,6 +66,10 @@ p {
   margin-right: 20%;
 }
 
+.contents {
+    margin-right: 20%;
+}
+
 /* Section spacing */
 #conceptualisation,
 #implementation,
