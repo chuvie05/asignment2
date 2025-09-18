@@ -3,8 +3,9 @@ body, html {
   padding: 0;
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  background-color: #fafafa;
+  background-color: #ffa2a2;
   color: #222;
+  cursor: url('cursor/normalcurcor.png'), auto;
 }
 
 /* Navigation */
@@ -14,8 +15,8 @@ nav {
   left: 0;
   width: 250px;
   height: 100%;
-  background: #f3f3f3;
-  border-right: 1px solid #ddd;
+  background: #980808;
+  border-right: 1px solid #a1a0a0;
   padding: 20px;
   box-sizing: border-box;
   overflow-y: auto;
@@ -24,7 +25,7 @@ nav {
 nav h2 {
   font-size: 18px;
   margin-bottom: 15px;
-  color: #444;
+  color: #ffe5dc;
 }
 
 nav ul {
@@ -39,12 +40,12 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: #0077cc;
+  color: #ffa2a2;
   transition: color 0.3s ease;
 }
 
 nav ul li a:hover {
-  color: #005999;
+  color: #fde1b1;
 }
 
 /* Main content sections */
@@ -56,13 +57,13 @@ div {
 h1 {
   font-size: 26px;
   margin-bottom: 12px;
-  color: #333;
+  color: #024b14;
 }
 
 p {
   margin-bottom: 12px;
   font-size: 16px;
-  color: #444;
+  color: #444444;
   margin-right: 20%;
 }
 
@@ -96,4 +97,16 @@ p {
   font-size: 14px;
   color: #666;
   margin-top: 5px;
+}
+img:hover {
+  cursor: url('cursor/hovercurcor.png'), pointer;
+}
+a{
+    color: #980808;
+}
+a:hover {
+  cursor: url('cursor/hovercurcor.png'), pointer;
+}
+video:hover {
+  cursor: url('cursor/hovercurcor.png'), pointer;
 }
