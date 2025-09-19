@@ -69,8 +69,8 @@
   <p>The prototype is developed with HTML, CSS, and JavaScript.</p>
 
   <ul class="contents">
-    <li>Buttons: Since I already drew the background and some buttons, I just created invisible clickable areas over the buttons (letters - A, B, C).</li>
-    <li>Card Flip: Implemented with CSS 3D transforms to simulate physical cards.</li>
+    <li>Buttons: Since I already drew the background and some buttons, I just created invisible clickable areas over the buttons by making the buttons transparent (letters - A, B, C).</li>
+    <li>Card Flip: Implemented with CSS 3D transforms to simulate physical cards. I chose CSS 3D transforms for the card flip because they are hardware-accelerated, smooth, and easy to maintain, allowing the browser to handle the animation while JavaScript focuses on changing images and playing audio.</li>
     <li>Randomisation: Each click calls Math.random() to select a different card for the chosen letter, ensuring variety and engagement.</li>
     <li>Audio: Each card links to a .wav file for pronunciation, reinforcing learning through sound. Some of the sounds were collected from free online sources, some were recorded by myself.</li>
     <li>System map: Letter button → Randomiser (Math.random) → Card flips → Front image + matching audio plays.</li>
